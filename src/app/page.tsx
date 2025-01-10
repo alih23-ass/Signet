@@ -1,8 +1,8 @@
 "use client";
 
 import React from "react";
-import { SkeletonText } from "@/subframe/components/SkeletonText";
-import { Button } from "@/subframe/components/Button";
+import { SkeletonText } from "../subframe/components/SkeletonText";
+import { Button } from "../subframe/components/Button";
 
 function SimpleSignInCard() {
   return (

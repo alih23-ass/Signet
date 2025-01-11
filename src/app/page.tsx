@@ -8,7 +8,7 @@ import { Button } from "../subframe/components/Button";
 function MinimalSignInPage() {
   return (
     <DefaultPageLayout>
-      <div className="container max-w-none flex h-full w-full flex-col items-center justify-center rounded-md border border-solid border-brand-primary bg-white py-12 mobile:rounded-none">
+      <div className="container max-w-none flex h-full w-full flex-col items-center justify-center border border-solid border-brand-primary bg-white py-12 mobile:rounded-none">
         <div className="flex w-full max-w-[320px] flex-col items-center justify-center gap-8 px-12 py-12">
           <div className="flex flex-col items-center justify-center gap-6">
             <img

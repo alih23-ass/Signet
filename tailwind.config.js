@@ -3,7 +3,7 @@ module.exports = {
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
-    "./src\\subframe\\**\\*.{tsx,ts,js,jsx}"
+    "./src/subframe/**\\*.{tsx,ts,js,jsx}"
   ],
   theme: {
     extend: {
@@ -196,5 +196,4 @@ module.exports = {
     }
   },
   plugins: [],
-  presets: [require("./subframe/tailwind.config.js")]
 };

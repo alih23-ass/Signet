@@ -196,5 +196,5 @@ module.exports = {
       }
     },
     plugins: [],
-    presets: [require("./.subframe/tailwind.config.js")]
+    presets: [require("./subframe/tailwind.config.js")]
   };
